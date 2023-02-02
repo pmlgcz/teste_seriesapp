@@ -1,0 +1,20 @@
+#header{
+    border-bottom: 1px solid var(--preto);
+    padding-block: 15px
+}
+#header ul{
+    overflow: hidden;
+}
+#logo a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#imagemLogo img {
+    width: 170px;
+}
+
+@media (min-width: 992px) {
+    #imagemLogo img{
+        width: 250px
+    }
+}
